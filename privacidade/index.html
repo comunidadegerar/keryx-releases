@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KERYX · Política de privacidade</title>
+<meta name="description" content="Como o KERYX usa os dados da igreja e o acesso ao Google Drive.">
+<style>
+:root { --bg: #f7f5f0; --fg: #1b1a17; --muted: #5d5850; --line: #e2ddd3; --gold: #9a7536; }
+@media (prefers-color-scheme: dark) { :root { --bg: #121210; --fg: #f4f1ea; --muted: #b3ada2; --line: #2c2b27; --gold: #d2ab6c; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+h1 { font-size: 30px; margin: 0 0 4px; }
+.upd { color: var(--muted); margin: 0 0 24px; font-size: 14px; }
+h2 { font-size: 18px; margin: 28px 0 8px; }
+p, li { color: var(--muted); }
+ul { padding-left: 20px; }
+a { color: var(--gold); }
+code { font-size: 14px; }
+footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="../">← KERYX</a></p>
+  <h1>Política de privacidade</h1>
+  <p class="upd">Atualizada em 26 de outubro de 2026</p>
+
+  <p>O KERYX é um programa instalado no computador da igreja. Ele não tem contas de usuário e os desenvolvedores não mantêm um servidor que receba as músicas, os cultos ou a mídia da igreja.</p>
+
+  <h2>O que fica no computador</h2>
+  <p>Músicas, cultos, temas, mídia, anotações e configurações ficam guardados no próprio computador, numa pasta de dados do KERYX.</p>
+
+  <h2>Acesso ao Google Drive</h2>
+  <p>Se a igreja escolher sincronizar os seus computadores, ela entra com uma conta Google dentro do KERYX. O KERYX pede só estas permissões:</p>
+  <ul>
+    <li><code>drive.appdata</code>: uma pasta oculta, exclusiva do KERYX, no Drive dessa conta. O KERYX guarda ali as músicas, os cultos e a mídia da igreja para os outros computadores da igreja receberem. O KERYX <strong>não vê, não lê e não altera nenhum outro arquivo</strong> do Drive.</li>
+    <li><code>openid</code> e <code>email</code>: para mostrar em qual conta o computador está conectado.</li>
+  </ul>
+  <p>Esses dados vão direto do computador da igreja para o Google Drive da própria igreja. Não passam por servidores dos desenvolvedores, não são vendidos, não são usados para publicidade e não são compartilhados com ninguém. O uso de dados recebidos das APIs do Google segue a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de dados do usuário dos serviços de API do Google</a>, incluindo os requisitos de uso limitado.</p>
+  <p>A autorização fica guardada de forma protegida no computador (com a proteção de dados do Windows). Para retirá-la, use "Sair" no KERYX ou remova o KERYX em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. A pasta oculta pode ser apagada pelo Drive (Configurações › Gerenciar apps).</p>
+
+  <h2>Quando o KERYX usa a internet</h2>
+  <ul>
+    <li>Procurar atualizações do programa (GitHub).</li>
+    <li>Ler ou instalar edições da Bíblia, procurar letras de músicas e vídeos do YouTube, quando o operador pede.</li>
+    <li>Sincronizar com o Google Drive, quando a igreja liga.</li>
+    <li><strong>Relatar um problema</strong>: só quando o operador envia um relato, o texto dele e um arquivo de diagnóstico (registros do programa, sem as músicas nem a mídia) vão para os desenvolvedores, para corrigir o problema.</li>
+  </ul>
+
+  <h2>Contato</h2>
+  <p>Dúvidas sobre privacidade: <a href="mailto:davigoncalves207@gmail.com">davigoncalves207@gmail.com</a>.</p>
+
+  <footer>KERYX · <a href="../">Início</a></footer>
+</main>
+</body>
+</html>
